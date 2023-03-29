@@ -1,0 +1,139 @@
+/* 공통소스 */
+
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.inner {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 12px;
+}
+
+/* 더 알아보기 버튼 */
+.link-more{
+    display: inline-block;
+    margin-top: 2rem;
+    border: 1px solid #1580ff;
+    color: #1580ff;
+    padding: 1rem 3rem 1rem 1.25rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+    font-size: 1.125rem;
+}
+.link-more:hover{
+    background: #1580ff;
+    color: #fff;
+}
+.link-more svg {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    fill: #1580ff;
+    transition: all 0.5s;
+}
+.link-more:hover svg {
+    right: 0.5rem;
+    fill: #fff;
+}
+
+/* 각 섹션의 제목 */
+
+.headline {
+    font-size: 2.75rem;
+    line-height: 1.4;
+    letter-spacing: -0.05rem;
+    font-weight: 600;
+}
+
+
+@media (max-width:1500px) {
+    .container .sc-news .inner, .inner {
+        padding: 5rem 50px;
+    }
+    .container .sc-news .group-btn {
+        right: 50px;
+    }
+}
+
+/* 테블릿 */
+@media (max-width:1024px) {
+    .sc-intro .link-more {
+        margin-bottom: 15px;
+    }
+    .sc-tech .link-more {
+        margin-bottom: 15px;
+    }
+}
+
+/* 모바일 */
+@media (max-width:767px) {
+    .inner {
+        padding: 0 12px;
+    }
+    .link-more{
+        display: inline-block;
+        margin: 0.5rem 0;
+        border: 1px solid #1580ff;
+        color: #1580ff;
+        padding: 0.5rem 1.5rem 0.5rem 0.6rem;
+        border-radius: 0.25rem;
+        font-weight: 500;
+        line-height: 1;
+        cursor: pointer;
+        transition: all 0.3s;
+        position: relative;
+        font-size: 0.6rem;
+    }
+    .sc-banner .inner .link-more {
+        padding: 0.5rem 0.6rem;
+        padding-right: 1.5rem;
+    }
+    .sc-banner .inner .link-more svg {
+        right: 0.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 12px;
+        display: inline-block;
+        fill: #fff;
+    }
+    .sc-banner .inner .link-more:hover svg{
+        right: 0.25rem;
+    }
+    .container .sc-news .inner {
+        padding: 2rem 12px;
+    }
+    .container .sc-news .group-btn {
+        top: 2.1rem;
+        right: 12px;
+    }
+
+    .link-more:hover{
+        background: #1580ff;
+        color: #fff;
+    }
+    .link-more svg {
+        position: absolute;
+        right: 0.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 12px;
+        fill: #1580ff;
+        transition: all 0.5s;
+    }
+    .link-more:hover svg {
+        right: 0.7rem;
+        fill: #fff;
+    }
+}
