@@ -556,15 +556,11 @@
 }
 
 .sc-news .swiper.newsswiper .swiper-button-prev, .sc-news .swiper.newsswiper .swiper-button-next {
-
     transition: all .5s;
     height: 64px;
     width: 64px;
     border-radius: 50%;
     cursor: pointer;
-    /* background-size: 27px 44px;
-    background-position: center;
-    background-repeat: no-repeat; */
     z-index: 9999;
     background-color: #fff;
 }
@@ -729,19 +725,19 @@
    .sc-news {
     padding: 3rem 0;
    }
-   .sc-news .swiper.newsSwiper .swiper-slide.news-item .img-box .source {
+   .sc-news .swiper.newsswiper .swiper-slide.news-item .img-box .source {
     left: 10px;
     top: 10px;
     font-size: 0.6rem;
     padding: 0.1rem 0.25rem;
    }
-   .sc-news .swiper.newsSwiper .swiper-slide.news-item .txt-box .title {
+   .sc-news .swiper.newsswiper .swiper-slide.news-item .txt-box .title {
     font-size: 0.8rem;
    }
-   .sc-news .swiper.newsSwiper .swiper-slide.news-item .txt-box .date {
+   .sc-news .swiper.newsswiper .swiper-slide.news-item .txt-box .date {
     font-size: 0.6rem;
    }
-   .sc-news .swiper.newsSwiper .swiper-button-prev, .sc-news .swiper.newsSwiper .swiper-button-next{
+   .sc-news .swiper.newsswiper .swiper-button-prev, .sc-news .swiper.newsswiper .swiper-button-next{
     display: none;
    }
    .sc-news .group-btn {
