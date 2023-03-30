@@ -481,30 +481,30 @@
     transform: translateY(0);
     opacity: 1;
 }
-.sc-news .swiper.newsSwiper {
+.sc-news .swiper.newsswiper {
     overflow: initial;
 }
-.sc-news .swiper.newsSwiper .swiper-wrapper.news-list{
+.sc-news .swiper.newsswiper .swiper-wrapper.news-list{
 }
-.sc-news .swiper.newsSwiper .swiper-slide.news-item{
+.sc-news .swiper.newsswiper .swiper-slide.news-item{
     opacity: 0;
     transition: 1s;
 }
-.sc-news .swiper.newsSwiper .swiper-slide.news-item.active {
+.sc-news .swiper.newsswiper .swiper-slide.news-item.active {
     opacity: 1;
 }
 
 
-.sc-news .swiper.newsSwiper .swiper-slide.news-item .img-box{
+.sc-news .swiper.newsswiper .swiper-slide.news-item .img-box{
     margin-bottom: 1.5rem;
     position: relative;
     width: 100%;
 }
-.sc-news .swiper.newsSwiper .swiper-slide.news-item .img-box img{
+.sc-news .swiper.newsswiper .swiper-slide.news-item .img-box img{
     border-radius: 0.75rem;
     max-width: 100%;
 }
-.sc-news .swiper.newsSwiper .swiper-slide.news-item .img-box .source{
+.sc-news .swiper.newsswiper .swiper-slide.news-item .img-box .source{
     position: absolute;
     display: inline-block;
     left: 1rem;
@@ -517,8 +517,8 @@
     color: #fff;
     text-transform: uppercase;
 }
-.sc-news .swiper.newsSwiper .swiper-slide.news-item .txt-box{}
-.sc-news .swiper.newsSwiper .swiper-slide.news-item .txt-box .title{
+.sc-news .swiper.newsswiper .swiper-slide.news-item .txt-box{}
+.sc-news .swiper.newsswiper .swiper-slide.news-item .txt-box .title{
     font-weight: 600;
     margin-bottom: 0.5rem;
     font-size: 1.25rem;
@@ -530,7 +530,7 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-.sc-news .swiper.newsSwiper .swiper-slide.news-item .txt-box .date{
+.sc-news .swiper.newsswiper .swiper-slide.news-item .txt-box .date{
     display: block;
     margin-top: 2rem;
     font-size: 1rem;
@@ -555,24 +555,24 @@
     display: none;
 }
 
-.sc-news .swiper.newsSwiper .swiper-button-prev, .sc-news .swiper.newsSwiper .swiper-button-next {
+.sc-news .swiper.newsswiper .swiper-button-prev, .sc-news .swiper.newsswiper .swiper-button-next {
 
     transition: all .5s;
     height: 64px;
     width: 64px;
     border-radius: 50%;
     cursor: pointer;
-    background-size: 27px 44px;
+    /* background-size: 27px 44px;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     z-index: 9999;
     background-color: #fff;
 }
-.sc-news .swiper.newsSwiper .swiper-button-next {
+.sc-news .swiper.newsswiper .swiper-button-next {
     transform: rotate(180deg);
 }
-.sc-news .swiper.newsSwiper .swiper-button-next svg path {
-    fill: #fff;
+.sc-news .swiper.newsswiper .swiper-button-prev svg .cls-1, .sc-news .swiper.newsswiper .swiper-button-next svg .cls-1{
+    fill: none;
 }
 
 

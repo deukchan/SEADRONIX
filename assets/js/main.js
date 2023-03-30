@@ -43,7 +43,7 @@ $(function(){
      * @news스와이퍼
      */
 
-    var swiper = new Swiper(".newsSwiper", {
+    var swiper = new Swiper(".newsswiper", {
       slidesPerView:1, //모바일
       spaceBetween: 10, //모바일
       
@@ -101,7 +101,7 @@ $(function(){
         });
     }, options);
     
-    const scrollList = document.querySelectorAll('.sc-intro .txt-box, .img-box, .sc-product .group-title, .sc-product .img-wrap, .sc-banner, .sc-tech .txt-area, .sc-tech .headline, .sc-partner .headline, .sc-partner .partner-list, .sc-tech .img-wrap, .sc-news .headline, .sc-news .group-btn, .sc-news .swiper.newsSwiper .swiper-slide.news-item');
+    const scrollList = document.querySelectorAll('.sc-intro .txt-box, .img-box, .sc-product .group-title, .sc-product .img-wrap, .sc-banner, .sc-tech .txt-area, .sc-tech .headline, .sc-partner .headline, .sc-partner .partner-list, .sc-tech .img-wrap, .sc-news .headline, .sc-news .group-btn, .sc-news .swiper.newsswiper .swiper-slide.news-item');
     // const scrollList = document.querySelectorAll('[data-scroll]');
     
     scrollList.forEach(el => observer.observe(el));
